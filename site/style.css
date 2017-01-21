@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: mintcream;
+    color: black;
+}
+
+ul{
+    float: right;
+}
+
+li{
+    text-decoration-style: none;
+    display: inline;
+    margin-right: 5px;
+}
+
+/*media query*/
+@media(min-width:1200px){
+    
+   .col-lg{
+        width:17%;
+        /*border: 1px solid black;*/
+        margin: 12px;
+        text-align: justify;
+        /*height: 150px;*/
+        float: left;
+   }
+    
+    #footer{
+        clear:both;
+    }
+}
+
+@media(min-width:965px) and (max-width:1199px){
+    .col-md{
+        width:45%;
+        /*border: 1px solid black;*/
+        margin: 12px;
+        text-align: justify;
+        /*height: 150px;*/
+        float: left;
+   }
+      #footer{
+        clear:both;
+    }
+}
