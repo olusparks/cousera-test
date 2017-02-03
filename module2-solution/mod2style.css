@@ -17,9 +17,13 @@ p {
   background-color: firebrick;
   width: 90%;
   height: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding:3%;
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content:center;
   /*font-family: Helvetica;*/
   color: oldlace;
   text-align: justify;
