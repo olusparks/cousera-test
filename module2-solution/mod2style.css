@@ -12,19 +12,24 @@ h1 {
   text-align: center;
 }
 
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+.row div{
+  margin-bottom: 20px;
+}
+
+
+
 p {
   border: 1px solid black;
   background-color: firebrick;
-  width: 90%;
-  height: 100%;
-  margin-right: 0;
-  margin-left: 0;
+  margin: 0 auto 0;
   padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    align-content:center;
-  /*font-family: Helvetica;*/
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px; 
   color: oldlace;
   text-align: justify;
   position: relative;
@@ -34,7 +39,6 @@ div > p > span{
     color:oldlace;
     border: 1px solid black;
     text-align: center;
-    width:100px;
     position: absolute;
     top:0;
     right:0;
@@ -49,11 +53,6 @@ div > p > span{
  p #span3{
      background-color: chocolate;
  }
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
