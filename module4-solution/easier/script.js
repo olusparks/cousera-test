@@ -66,3 +66,11 @@ for (var i = 0; i < names.length; i++) {
 }
 
 })();
+
+
+/*var counter = 0;
+var idea = ["Jide", 2, {handle:"Jidebantale"}];
+for(var i = 0; i < idea.length; i++){
+  counter++;
+}
+console.log(counter);*/
