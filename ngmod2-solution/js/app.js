@@ -44,7 +44,32 @@
 function ShoppingListCheckOffService(){
     var service = this;
 
-    var buyitems = [];
+    var buyitems = [
+        {
+            name: "Milk",
+            quantity: 2
+        },
+        {
+            name: "sugar",
+            quantity: 4,
+        },
+        {
+            name: "Cake",
+            quantity: 3
+        },
+        {
+            name: "Apple",
+            quantity: 10
+        },
+        {
+            name: "Green-peas",
+            quantity: 5
+        },
+        {
+            name: "Lettuce",
+            quantity: 10
+        }
+    ];
     var boughtItems = [];
 
     //add item to buy function
